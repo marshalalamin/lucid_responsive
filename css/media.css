@@ -1,0 +1,205 @@
+@media (max-width: 1199px) {
+  .form_width {
+    width: 90%;
+    padding: 63px 20px;
+  }
+}
+
+/* ===================END=============== */
+
+/* ======================= 991 START ======================== */
+
+@media (max-width: 991px) {
+  .feature_wrapper h2 {
+    font-size: 23px;
+  }
+
+  .header_image {
+    width: 53%;
+    bottom: 24%;
+  }
+
+  .form_width {
+    width: 90%;
+    padding: 63px 20px;
+  }
+
+  .btn_order {
+    padding: 10px 25px;
+    font-size: 17px;
+
+  }
+
+  .header_content h1 {
+    font-size: 30px;
+  }
+
+  .header_content p {
+    font-size: 16px;
+  }
+
+  .form_width textarea {
+    margin-top: 20px;
+  }
+
+  nav-link:hover:before {}
+
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    left: 0;
+
+
+  }
+
+  .nav-link:hover::after {
+    opacity: 1;
+    left: 5%;
+  }
+
+
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    left: 0;
+    right: 0;
+  }
+
+
+}
+
+/* ======================= 991 END ======================== */
+
+/* =======================767 START ======================== */
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    display: inline-block;
+  }
+
+  .header_wraper {
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+  }
+
+  .header_content p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .header_content h1 {
+    font-size: 26px;
+    padding: 10px 0;
+    line-height: 33px;
+  }
+
+  .btn_download {
+    padding: 12px 14px;
+    font-size: 11px;
+  }
+
+  .btn_view {
+    padding: 12px 14px;
+    font-size: 11px;
+  }
+
+  .header_image {
+    display: none;
+  }
+
+  .header_content h3 {
+    font-size: 25px;
+  }
+
+  .header_image_phone {
+    display: inherit;
+    width: 85%;
+    margin: auto;
+  }
+
+  .head_feture_content h1 {
+    font-size: 30px;
+  }
+
+  .form_width {
+    width: 93%;
+    padding: 63px 56px;
+
+  }
+
+  .c_item h3 {
+    font-size: 14px;
+    padding: 15px 0;
+  }
+
+  .c_item h4 {
+    font-size: 13px;
+  }
+
+  .feature_wrapper p {
+
+    text-align: center;
+  }
+}
+
+/* ============================END 767 =============== */
+
+
+/* ============================START 575 =============== */
+@media (max-width: 575px) {
+  .feature_wrapper p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .pricing_plan p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 24px 0;
+  }
+
+  .like_what h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .form_width {
+    width: 100%;
+  }
+
+  .form_width {
+    padding: 36px 2px;
+
+  }
+
+  .form_width textarea {
+    padding: 8px 4px;
+    margin-top: 18px;
+  }
+
+  .one h3 {
+    font-size: 16px;
+    line-height: 0px;
+  }
+
+  .pricing_item {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+
+
+  }
+
+  .pricin_conten {
+    justify-content: center;
+  }
+}
